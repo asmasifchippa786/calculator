@@ -1,0 +1,65 @@
+@font-face {
+  font-family: minecraft;
+  src: url(./Minecraft.ttf);
+}
+body
+{
+  background-color: black;
+
+
+}
+.text-center
+{
+  color: white;
+  text-align: center;
+  font-family: 'minecraft';
+}
+.bg-red
+{
+  background-color: red;
+}
+.mx-auto
+{
+  margin: 0px;
+}
+.button
+{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow:  0px 0px 100px grey;
+
+}
+.button:hover{
+  background-color: rgb(128, 128, 128);
+}
+.flex
+{
+display: flex;
+}
+.flex-col
+{
+  flex-direction: column;
+}
+.item-center
+{
+  align-items: center;
+}
+.row
+{
+  margin: 8px 0;
+}
+.row input
+{
+  width: 280px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 0px;
+  cursor: pointer;
+  box-shadow:  5px 5px 100px grey;
+}
