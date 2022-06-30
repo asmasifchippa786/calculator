@@ -11,8 +11,8 @@ Array.from(buttons).forEach((button)=>{
    document.querySelector('input').value = string
   }
   else if(e.target.innerHTML == 'C'){
-    string = "";
-   document.querySelector('input').value = string
+    string = string.replace(string[string.length-1] , '')
+    document.querySelector('input').value = string
   }
   else{
     console.log(e.target);
